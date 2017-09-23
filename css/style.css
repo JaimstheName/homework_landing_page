@@ -1,0 +1,101 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+* {
+  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
+}
+ body {
+ 	background: #ffffff;
+ 	font-family:'Roboto', sans-serif;
+ }
+
+ header {
+	font-weight: 900;
+	font-style: Italic;
+		font-size: 40px;
+		background-image: url("../images/bg.jpg");
+		height: 600px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row; 
+}
+
+
+button {
+	color: white;
+	font-size: 14px;
+	border: 5px;
+	background-color: rgb(16,204,114);
+}
+
+.primary-btn {
+	background-color: rgb(16,204,114);
+	}
+h1 {
+	color: black;
+	font-size: 36px;
+}
+
+.flex-container {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+#commentBox
+{
+	font-weight: Light Italian;
+	font-size: 18px;
+}
+
+p {
+	font-weight: medium;
+	font-size: 14px;
+}
+
+button {
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: rgb(115,176,248);
+}
+.secondary-btn {
+	background-color: blue rgb(115,176,248);
+}
+
+section {
+	display: flex;
+}
+
+}
+
+ footer{background-color: rgb(242,244,246);}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
