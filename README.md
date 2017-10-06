@@ -1,62 +1,50 @@
-# FEWD Week #2: Styling with CSS
+### Description 
 
-This assignment is geared to challenge you to create a **single-column** landing page and apply more advanced CSS techniques to it.
 
-**A crucial component of this assignment is to practice building based off of an existing design!**
+![Relaxr Blog](images/relaxr_blog_screenshot.png)
 
-You have some options for this assignment, but in both cases, you are asked to use the included [design file](design_file.txt)
-
-- I am including an example mockup as one option for you to build from
-
-- You may also sketch your own **single-column** page and build that out
-
-  If you go this route though, please
-
-  - be aware that you will be building off of the site you create for the next couple of assignments
-  - include a picture/copy of your mockup/wireframe/sketch with your submission
-  - adhere to the [design file](design_file.txt) by styling the corresponding element in your own page..for example, style your own logo or header,  instead of "Relaxr" (as is referenced)
-
-  ​
+<br>
 
 ---
 
+
 ### Real-World Applications
 
-- Building a website from a [design file](design_file.txt)
-- Integrating advanced CSS properties
-- Choosing and utilizing HTML5 structural elements
-- Using `reset.css` or `normalize.css` to start your CSS from scratch without any browser styling
-- Using the Box Model to style elements (`padding`, `border`, `margin`)
-- Using the Flexbox model to layout elements in relation to their parent container
+- Build websites with multi-column layouts
+- Turn complex design assets into code
+- Style text on your page with Google Fonts
 
 <br>
 
-------
+---
 
-### Technical Requirements
 
-- Use HTML5 structural elements (nav, header, footer)
-*****- Use a CSS `reset.css` or `normalize.css` file in addition to your `style.css` file to style the page
-- Use IDs and Classes to to select and style elements on the page
-- Use at least **two flex containers**, each with at least **two flex items**
-- Style your text with the **Google Fonts** provided by your style guide
-- Follow naming conventions, maintain consistency across `.html` and `.css` files and use best practices for naming IDs and Classes
-- Indent nested elements to increase your code's readability
+### Technical Requirements 
+- Use either a `normalize.css` or `reset.css`  (see links in class resources from Unit 3)
+- Use CSS grid to achieve a 3-column layout
+- Use proper filename conventions (lowercase, .html)
+- Use a **single** external CSS stylesheet to style all pages (add onto the one you used for the landing page)
+- Use at least 4 relevant semantic HTML5 elements (`nav`,`header`, `article`,`footer` etc.)
+- Use CSS Flexbox to layout the contents of at least one structural component (e.g. logo and navbar within `<header>`)
+- Add a hover effect to the navigation links in the sidebar using pseudo-classes
+
+
+#### Bonus
+- Link the "Blog" link in the header to the page you've built for this assignment
+- Link the "About" link in the header to the [landing page](images/relaxr_landing_screenshot.png) you built last week
+- Up for a real challenge? 
+  - Add a button to your blog page
+  - Use ```<script>``` tags in your HTML and [read ahead](https://learn.jquery.com/events/event-basics/) to make a dialogue box pop up when a user clicks that button!
 
 <br>
 
-### If you choose to use the sample mockup/site, here is some background...
+---
 
-#### Description
+### Resources
 
-
-A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](design_file.txt) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
-
-
-![Relaxr Landing Page](images/relaxr_landing.png)
-
-*Note: For a view of the full page, see the [jpg](images/relaxr_landing.png) provided in the deliverable. Don't be alarmed if your font sizes don't perfectly match what you see in the jpg - trust in the design file!*
-
+- [Documentation on CSS Pseudo-classes](http://www.w3schools.com/CSS/CSS_pseudo_classes.asp)
+- [Prepare for JavaScript/jQuery](https://generalassemb.ly/online/videos/what-can-you-do-with-javascript)
+- [Read ahead on jQuery basics](https://learn.jquery.com/events/event-basics/)
 
 <br>
 
@@ -64,6 +52,20 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 
 ### Evaluation / Submission
 
-Please create a new repository on GitHub called "homework-landingpage" and push your code to it when you are ready to submit. I will evaluate and will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2). Bonus sections are completely optional. The maximum possible score on this assignment is 14/14.
+Students should use the same folder and GitHub repository as the previous project ("homework-landingpage"), and simply copy+paste the images from this week's assignment `starter_code`
 
----
+When ready for evaluation, please push your code to that repository.   I will evaluate against the solution code and the your use of technical elements. 
+
+We will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2). The maximum possible score on this assignment is 14/14
+
+Bonuses are completely optional
+
+### Bonus
+
+Find a well designed website that you like and try to recreate it. What tools you could use to figure out the fonts and colors they are using? Focus on recreating the overall layout even if it isn't pixel perfect. Try to avoid copying the exact code. Don't worry about images (some websites make it hard to copy images) and use a solid background color instead.
+
+Some suggested sites are (listed from least to most difficult):
+
+- https://twitter.com/
+- http://www.custard.co.uk/
+- https://nike.com/

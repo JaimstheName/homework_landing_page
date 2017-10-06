@@ -1,14 +1,15 @@
-#FEWD Week #2 Project: Styling with CSS
+#FEWD Week #3 Project: Multi-Column layout
 
 ---
 
 
 ###Description
 
+- Build websites with multi-column layouts
+- Turn complex design assets into code
+- Style text on your page with Google Fonts
 
-A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the design file for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
-
-Student: Jaimie Stevens
+Student: ________________________________________
 
 Project URL: ____________________________________
 
@@ -16,12 +17,12 @@ Project URL: ____________________________________
 |                                          |                                |                        |                          |
 | ---------------------------------------- | ------------------------------ | ---------------------- | ------------------------ |
 | Technical Requirements                   | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
-| Use HTML5 structural elements (nav, header, footer) |                                |                        |                          |
-| Use a `reset.css` or `normalize.css` file in addition to your style.css file to style the page |                                |                        |                          |
-| Use IDs and Classes to to select and style elements on the page |                                |                        |                          |
-| Use at least two flex containers, each with at least two flex items |                                |                        |                          |
-| Style your text with the Google Fonts provided by your style guide |                                |                        |                          |
-| Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes |                                |                        |                          |
-| Indent nested elements to increase your code's readability |                                |                        |                          |
+| Use either a `normalize.css` or `reset.css` (see links in class resources from Unit 3) |                                |                        |                          |
+| Use CSS grid to achieve a 3-column layout |                                |                        |                          |
+| Use proper filename conventions (lowercase, .html) |                                |                        |                          |
+| Use a **single** external CSS stylesheet to style all pages (add onto the one you used for the landing page) |                                |                        |                          |
+| Use at least 4 relevant semantic HTML5 elements (`nav`,`header`, `article`,`footer` etc.) |                                |                        |                          |
+| Use CSS Flexbox to layout the contents of at least one structural component (e.g. logo and navbar within `<header>`) |                                |                        |                          |
+| Add a hover effect to the navigation links in the sidebar using pseudo-classes |                                |                        |                          |
 | TOTAL: ______/14                         |                                |                        |                          |
 
